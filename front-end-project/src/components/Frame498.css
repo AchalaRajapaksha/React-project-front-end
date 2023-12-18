@@ -1,0 +1,43 @@
+.Frame498 {
+display: flex;
+gap: 108px;
+align-items: center;
+
+}
+
+
+.Frame498 h4 {
+    font-size: 27px;
+    font-weight: 600;
+    letter-spacing: 0.4 px;
+    font-family: 'Poppins', sans-serif;
+    color: #6B3CC9;
+    margin: 0;
+}
+
+.Frame498 p {
+font-family: 'Inter', sans-serif;
+font-weight: 400;
+font-size: 16px;
+color: #000000;
+width: 542px;
+height: 76px;
+margin: 0;
+}
+
+.Frame92 {
+width: 542px;
+display: flex;
+flex-direction: column;
+gap: 20px;
+}
+
+.img2 {
+    width: 414px;
+    height: 414px;
+}
+
+.img1 {
+    width: 414px;
+    height: 416px;
+}

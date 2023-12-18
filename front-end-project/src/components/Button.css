@@ -1,9 +1,7 @@
 .button{
 background-color: #F28D35;
-width: 214px;
+width: fit-content;
 height: 38px;
-margin-top: 90px;
-margin-left: 77px;
 border: 0;
 border-radius: 4px;
 padding-top:12px ;
@@ -19,9 +17,15 @@ color: #FFFFFF;
 display: flex;
 justify-content:space-between;
 white-space: nowrap;
+cursor: pointer;
 }
 
 .button:hover {
-    background-color: #f0984c;
+    background-color: #dd8e49;
+
+}
+
+.button:active {
+    background-color: #a35007;
 
 }
