@@ -1,0 +1,90 @@
+.Footer{
+background-color: #6B3CC9;
+color: #FFFFFF;
+width: 1,440px;
+margin-top: 385px;
+margin-left: 99px;
+padding-top:40px ;
+padding-bottom: 20px;
+padding-left:80px ;
+padding-right:80px ;
+
+}
+
+.Frame503{
+display: flex;
+justify-content: space-between;
+flex-wrap: nowrap;
+flex-direction: row;
+
+}
+
+.Text {
+width:413px ;
+height:57px ;
+font-family: 'Lato', sans-serif;
+font-size: 16px;
+font-weight: 400;
+
+}
+ .Logo {
+padding-bottom: 40px;
+
+}
+
+.Frame501{
+    display: flex;
+    flex-direction: column;
+    width: 197px;
+}
+
+h3{
+font-size: 21px;
+font-weight: 600;
+font-family: 'Inter', sans-serif;
+margin-bottom: 0;
+}
+
+.p{
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    white-space: wrap;
+    flex-wrap: wrap;
+}
+
+.Frame502{
+    display: flex;
+    gap: 128px;
+   
+}
+ 
+h2{
+font-size: 14px;
+font-weight: 500;
+font-family: 'Inter', sans-serif;
+
+}
+
+.Terms{
+    display: flex;
+    gap: 12px;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.V-line{
+border-left: 1px solid #FFFFFF;
+height: 12px;
+
+}
+
+.Frame505{
+border-top:1px solid #FFFFFF ;
+width: 630px;
+
+}

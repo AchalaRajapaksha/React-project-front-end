@@ -2,6 +2,22 @@
 background-color: #F28D35;
 width: 214px;
 height: 38px;
-margin-top: 215px;
+margin-top: 90px;
 margin-left: 77px;
+border: 0;
+border-radius: 4px;
+padding-top:12px ;
+padding-bottom: 12px;
+padding-left:20px ;
+padding-right:20px ;
+gap: 8px;
+font-family: 'Inter', sans-serif;
+font-weight: 700;
+font-size: 14px;
+line-height: 14px;
+color: #FFFFFF;
+display: flex;
+justify-content:space-between;
+white-space: nowrap;
 }
+
