@@ -2,6 +2,7 @@ import './App.css';
 import TopNavigation from './components/TopNavigation';
 import Button from './components/Button';
 import Footer from './components/Footer';
+import Textbox from './components/Textbox';
 
 function App() {
   return (
@@ -9,7 +10,8 @@ function App() {
       <TopNavigation/>
       <Button/>
       <Footer/>
-    </div>
+      <Textbox/>
+          </div>
   );
 }
 

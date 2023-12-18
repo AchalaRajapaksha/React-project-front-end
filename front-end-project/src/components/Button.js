@@ -4,7 +4,7 @@ import './Button.css';
 function Button() {
   return (
     <div className="Button">
-      <button className='button'>GET FREE CONSULTATION</button>
+      <button className='button' >GET FREE CONSULTATION</button>
     </div>
   );
 };
