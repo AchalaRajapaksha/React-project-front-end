@@ -11,7 +11,8 @@ padding-right:80px ;
 font-size: 14px;
 color:#FFFFFF ;
 display: flex;
-
+white-space: nowrap;
+flex-wrap: nowrap;
 
 }
 
@@ -19,15 +20,19 @@ display: flex;
 display: flex;
 justify-content:space-between;
 gap:28px;
-width:381px;
 font-family: 'Inter', sans-serif;
 font-weight: 500;
 line-height: 16.94px;
 white-space: nowrap;
+flex-wrap: nowrap;
 }
 
 .Logo{
 width: 238.89px;
 height: 25px;
 
+}
+
+.Frame505{
+    align-items: center;
 }

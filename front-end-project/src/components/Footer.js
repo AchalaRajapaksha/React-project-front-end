@@ -57,11 +57,11 @@ function Footer() {
           </div>
 
           <div className="Text">
-            <p>
+            <h6>
               Your goal is our target. Not anything in between. We use online
               marketing platforms and tools to achieve single objective - your
               business results.
-            </p>
+            </h6>
           </div>
         </div>
         <div className="Frame502">
@@ -91,11 +91,13 @@ function Footer() {
         </div>
       </div>
       
+      <div className="bottompart">
       <div className="Frame505">
         <div className="Terms">
       <h2>Privacy Policy</h2>
       <div className="V-line"></div>
       <h2>Terms & Conditions</h2>
+    </div>
     </div>
     </div>
     </div>
