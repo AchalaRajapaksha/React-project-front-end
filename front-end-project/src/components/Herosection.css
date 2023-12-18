@@ -1,12 +1,12 @@
 .Herosection {
 width:1600px;
-height: auto;
+height: 700;
+padding-bottom: 0;
+margin: 0;
 padding: 0;
-display: block;
 }
 
 .Andykelly {
 width:100%;
 height: 100%;
-
 }

@@ -1,9 +1,75 @@
-.App {
-  background-color:#FFFFFF ;
-  padding: 10px;
-  
+.responsive-container {
+  body{
+  align-items: center;
+  position: relative;
+}
 }
 
-.Hero-Text{
+
+
+.content-for-medium-screens{
+  width:1200px;
+  background-color:#FFFFFF ;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-bottom: 8px;
+  padding-top: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   position: relative;
+
+ .Textbox{
+    width:622px;
+    height: auto;
+    
+ }
+
+
+
+}
+
+.content-for-wide-screens {
+  width:1440px;
+  background-color:#FFFFFF ;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-bottom: 8px;
+  padding-top: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+@media screen and (min-width: 1440px) {
+  .content-for-medium-screens,
+  .content-for-small-screens,
+  .content-for-mobile-screens {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .content-for-wide-screens,
+  .content-for-small-screens,
+  .content-for-mobile-screens {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .content-for-wide-screens,
+  .content-for-medium-screens,
+  .content-for-mobile-screens {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .content-for-wide-screens,
+  .content-for-medium-screens,
+  .content-for-small-screens {
+    display: none;
+  }
 }
