@@ -1,6 +1,9 @@
 .App {
   background-color:#FFFFFF ;
-  height:1367px ;
-  width:1876px ;
   padding: 10px;
+  
+}
+
+.Hero-Text{
+  position: relative;
 }
