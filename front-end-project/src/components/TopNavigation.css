@@ -1,3 +1,4 @@
+
 .TopNavigation{
 width:1440px;
 background-color:#6B3CC9;
@@ -10,6 +11,7 @@ font-size: 14px;
 color:#FFFFFF;
 display: flex;
 white-space: nowrap;
+margin-top: 0px;
 
 }
 
@@ -26,9 +28,100 @@ white-space: nowrap;
 .Logo{
 width: 238.89px;
 height: 25px;
-top:-11.11px
+top:-11.11px;
+padding-left: 200px;
 }
 
 .Frame505{
     align-items: center;
+    white-space: nowrap;
+}
+
+.Menu {display: none};
+
+
+@media only screen and (max-width: 1200px) {
+    
+.TopNavigation{
+width:1200px;
+background-color:#6B3CC9;
+justify-content:space-between;
+padding-top:26px;
+padding-bottom:26px;
+padding-left:260px;
+padding-right:60px;
+font-size: 14px;
+color:#FFFFFF;
+display: flex;
+white-space: nowrap;
+margin-left:80px;
+}
+
+.Menu {display: none};
+
+}
+
+
+@media only screen and (max-width: 768px) {
+.TopNavigation{
+width:768px;
+margin-left: 40px;
+white-space: nowrap;
+justify-content:space-between;
+}
+
+.Logo{
+padding-left: 10px;
+}
+
+.Menu {display: none};
+
+.Frame496 {
+display: flex;
+gap:20px;
+font-family: 'Inter', sans-serif;
+font-weight: 500;
+line-height: 16.94px;
+white-space: nowrap;
+flex-wrap: nowrap;
+}
+
+}
+
+@media only screen and (max-width: 375px) {
+.TopNavigation{
+width:375px;
+margin-left:0px;
+display: flex;
+justify-content: flex-start;
+align-items: center;
+padding-left:20px;
+padding-right:20px;
+}
+
+.Frame496{
+  display: none;
+}
+
+.Menu-logo{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+    padding-left: 10px;
+}
+
+.Logo{
+padding-left: 200px;
+}
+
+.Menu {
+display: flex;
+height:50px ;
+width: 50px;
+}
+
+body{margin: 0%;}
+
 }

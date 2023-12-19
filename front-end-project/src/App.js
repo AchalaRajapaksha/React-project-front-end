@@ -8,37 +8,14 @@ import Herosection from "./components/Herosection";
 
 function App() {
   return ( 
-      <div className="responsive-container">
-        <div className="content-for-wide-screens">
+      <div className="App">        
           <TopNavigation />
           <Herosection />
           <Frame498 />
           <Frame499 />
           <Footer />
         </div>
-        <div className="content-for-medium-screens">
-          <TopNavigation />
-          <Herosection />
-          <Frame498 />
-          <Frame499 />
-          <Footer />
-        </div>
-        <div className="content-for-small-screens">
-          <TopNavigation />
-          <Herosection />
-          <Frame498 />
-          <Frame499 />
-          <Footer />
-        </div>
-
-        <div className="content-for-mobile-screens">
-          <TopNavigation />
-          <Herosection />
-          <Frame498 />
-          <Frame499 />
-          <Footer />
-        </div>
-      </div>
+        
     
   );
 }

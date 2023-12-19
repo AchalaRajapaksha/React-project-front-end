@@ -15,7 +15,9 @@ export default function Frame498() {
           methods to respond to different intents shown by your potential
           customers who interact with your business online. 
         </p>
-        <button className="button">LEARN MORE</button>
+        
+        <br />  <button className="button">LEARN MORE</button>
+        <br/>
       </div>
     </div>
   );

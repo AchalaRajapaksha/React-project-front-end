@@ -1,15 +1,19 @@
+
 .Footer{
 background-color: #6B3CC9;
 color: #FFFFFF;
 width:1440px;
-margin-top:385px;
-margin-left: 99px;
 padding-top:40px ;
 padding-bottom: 20px;
 padding-left:80px ;
 padding-right:80px ;
-
 }
+
+.Frame500 {
+padding-left: 120px;
+padding-right: 70px;
+}
+
 
 .Frame503{
 display: flex;
@@ -90,4 +94,113 @@ margin-top: 8px;
 display: flex;
 justify-content: center;
 align-items: center;
+}
+
+
+@media only screen and (max-width: 1200px) {
+.Footer {
+width:1440px;
+padding-top:40px ;
+padding-bottom: 20px;
+padding-left:80px;
+padding-right:80px;
+
+}
+
+.Frame500 {
+padding-left: 220px;
+padding-right: 70px;
+}
+
+}
+
+
+@media only screen and (max-width: 768px) {
+.Footer {
+width:890px;
+padding-top:40px ;
+padding-bottom: 20px;
+padding-left:40px;
+padding-right:40px;
+
+}
+
+.Frame500 {
+padding-left: 0px;
+
+}
+.Frame502{
+    display: flex;
+    gap: 128px;
+   
+}
+
+.Frame503{
+display: flex;
+justify-content: center;
+flex-direction: row;
+flex-wrap: wrap;
+
+}
+
+}
+
+@media only screen and (max-width: 375px) {
+.Footer {
+width:375px;
+height: auto;
+padding-top:40px ;
+padding-bottom: 20px;
+padding-left:20px;
+padding-right:20px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+
+.Frame502{
+    display: flex;
+    gap: 20px;
+   flex-direction: column;
+   padding-left: 10px;
+}
+
+.Frame503{
+display: flex;
+justify-content: center;
+flex-direction: column;
+flex-wrap: wrap;
+gap: 20px;
+
+}
+
+
+.Frame500{
+    width: 310px;
+    display: flex;
+    flex-direction: column;
+     padding-left: 0px;
+     padding-right: 0px;
+    justify-content: center;
+    flex-wrap: wrap;
+    white-space: wrap;
+}
+
+.Text{
+    width: 310px;
+    display: flex;
+    flex-wrap: wrap;
+    white-space: wrap;
+    padding-left: 10px;
+    padding-right: 50px;
+}
+
+.Logo {
+    padding-left: 0%;
+   display: flex;
+   justify-content: flex-start;
+}
+
 }

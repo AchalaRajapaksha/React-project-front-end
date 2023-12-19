@@ -6,9 +6,11 @@ import "./Herosection.css";
 export default function Herosection() {
   return (
     <>
-      <Textbox />
       <div className="Herosection">
         <Andykelly className="Andykelly" />
+      </div>
+      <div className="Textb">
+        <Textbox />
       </div>
     </>
   );
