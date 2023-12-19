@@ -29,7 +29,7 @@ white-space: nowrap;
 width: 238.89px;
 height: 25px;
 top:-11.11px;
-padding-left: 200px;
+padding-left: 250px;
 }
 
 .Frame505{
@@ -61,11 +61,15 @@ margin-left:80px;
 
 }
 
+.Logo {
+  padding-left: 50x;
+}
+
 
 @media only screen and (max-width: 768px) {
 .TopNavigation{
 width:768px;
-margin-left: 40px;
+margin-left: 0px;
 white-space: nowrap;
 justify-content:space-between;
 }

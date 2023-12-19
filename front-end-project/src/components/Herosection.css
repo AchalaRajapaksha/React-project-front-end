@@ -34,13 +34,13 @@ padding: 0;
 
 @media only screen and (max-width: 768px) {
 .Herosection {
-width:887px;
-margin-left: 80px;
+width:927px;
+margin-left: 0px;
 
 }
 
 .Textb {
-width: 768px;
+width: 927px;
 height:350px ;
 margin-left: 0;
 margin-top: 0;
@@ -50,12 +50,15 @@ margin-top: 0;
 
 @media only screen and (max-width: 375px) {
 .Herosection {
-width:405px;
-margin-left: 10px;
+width:415px;
+margin-left: 0px;
 }
 
 .Textb {
-width: 300px;
+ align-items: center; 
+ display: flex;  
+ justify-content: center;
+width: 375px;
 height:250px ;
 margin-left: 0;
 margin-top: 0;
